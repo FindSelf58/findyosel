@@ -1,0 +1,1887 @@
+<!DOCTYPE html>
+<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
+<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
+<!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js"> <!--<![endif]-->
+    <head>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0, shrink-to-fit=no">
+        <meta charset="UTF-8">
+        <title>FindSelf</title>
+        <!--Подключили нормализацию -->
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.css">
+        <!--Подключили собственные стили -->
+        <link rel="stylesheet" href="main1.css">  
+        <link rel="stylesheet" href="button.css">  
+        <link rel="shortcut icon" type="image/x-icon" href="img/icon/icon.jpg">
+        <style>
+            @font-face {
+             font-family: Smal Intro;
+             src: url("words/IntroCond.ttf"); /* Путь к файлу со шрифтом */
+            }
+            @font-face {
+            font-family: Big Intro;
+            src: url("words/BigCond.ttf"); /* Путь к файлу со шрифтом */
+            }
+            @font-face {
+            font-family: Imprima;
+            src: url("words/Imprima.ttf"); /* Путь к файлу со шрифтом */
+            }
+       </style>
+        <link ref="stylesheet" href="words/IntroCond.ttf">
+        <script src="1.js" async defer type="text/javascript"></script>
+    </head>  
+    <body>
+        <div class="header">
+            <!--............................................
+            Шапка
+            .............................................-->
+            <div class="instruct">Инструкция</div>
+            <div class="BoldMan"><img src="img/Afish/image 1.png" alt=""></div>
+            <div class="text1">Предположим, что после<br> соответствующего обучения 
+                <br>Вы сможете выполнять любую работу из перечисленных ниже.<br>
+                Однако если бы Вам пришлось<br> выбирать только из двух возможностей,<br>
+                то какой вид деятельности Вы бы предпочли? </div>
+            <div class="text2">Ниже предложено 20 пар утверждений. Внимательно прочитав оба утверждения,<br>
+                оцените каждое из них, на сколько оно для 
+                Вас привлекательно от -3 <br>(очень не нравится) до 3 (очень нравится);</div>
+            <div class="titlefon"><img src="img/bg/Group 15.png" alt=""></div>
+            <div class="title">Опросник Е. А. Климова</div>
+            <div class="sidedown"></div>
+            <div class="sidetop"></div>
+        </div>
+        <div class="survey">
+            <!--............................................
+                Первая таблица
+            .............................................-->
+            <form id="Mainform" action="javasript:start();">
+                <div class="table1">
+                    <div class="textleft1">Ухаживать за животными</div>
+                    <div class="textright1">Обслуживать машины</div>
+                    <div class="numbone">1</div>
+                    <div class="sitemid1"></div>
+                    <div class="choice">
+                        <div class="a1">
+                            <div class="form_radio">
+                                <input id="radio-11" type="radio" name="radio1" value="-3">
+                                <label for="radio-11"> </label>
+                            </div>
+                            
+                            <div class="form_radio">
+                                <input id="radio-12" type="radio" name="radio1" value="-2">
+                                <label for="radio-12"> </label>
+                            </div>
+                            
+                            <div class="form_radio">
+                                <input id="radio-13" type="radio" name="radio1" value="-1">
+                                <label for="radio-13"> </label>
+                            </div>
+                            
+                            <div class="form_radio">
+                                <input id="radio-14" type="radio" name="radio1" value="1">
+                                <label for="radio-14"> </label>
+                            </div>  
+                            <div class="form_radio">
+                                <input id="radio-15" type="radio" name="radio1" value="2">
+                                <label for="radio-15"> </label>
+                            </div>  
+                            <div class="form_radio">
+                                <input id="radio-16" type="radio" name="radio1" value="3">
+                                <label for="radio-16"></label>
+                            </div>
+                        </div>
+                        <div class="b1">
+                            <div class="form_radio">
+                                <input id="radio-21" type="radio" name="radio2" value="-3">
+                                <label for="radio-21"> </label>
+                            </div>
+                            
+                            <div class="form_radio">
+                                <input id="radio-22" type="radio" name="radio2" value="-2">
+                                <label for="radio-22"> </label>
+                            </div>
+                            
+                            <div class="form_radio">
+                                <input id="radio-23" type="radio" name="radio2" value="-1">
+                                <label for="radio-23"> </label>
+                            </div>
+                            
+                            <div class="form_radio">
+                                <input id="radio-24" type="radio" name="radio2" value="1">
+                                <label for="radio-24"> </label>
+                            </div>  
+                            <div class="form_radio">
+                                <input id="radio-25" type="radio" name="radio2" value="2">
+                                <label for="radio-25"> </label>
+                            </div>  
+                            <div class="form_radio">
+                                <input id="radio-26" type="radio" name="radio2" value="3">
+                                <label for="radio-26"></label>
+                            </div>
+                        </div>  
+                        <div class="numbs1">
+                            <div class="val">
+                                <div class="numbm">-3</div>
+                                <div class="numbm">-2</div>
+                                <div class="numbm">-1</div>
+                            </div>
+                            <div class="val">
+                                <div class="numbp">1</div>
+                                <div class="numbp">2</div>
+                                <div class="numbp">3</div>
+                            </div>
+                        </div>
+                        <div class="numbs2">
+                            <div class="val">
+                                <div class="numbm">-3</div>
+                                <div class="numbm">-2</div>
+                                <div class="numbm">-1</div>
+                            </div>
+                            <div class="val">
+                                <div class="numbp">1</div>
+                                <div class="numbp">2</div>
+                                <div class="numbp">3</div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="table2">
+                    <div class="textleft1">Помогать больным людям, лечить их</div>
+                    <div class="textright1">Составлять таблицы, схемы, программы для вычислительных машин</div>
+                    <div class="numbone">2</div>
+                    <div class="sitemid1"></div>
+                    <div class="choice">
+                        <div class="a2">
+                            <div class="form_radio">
+                                <input id="radio-31" type="radio" name="radio3" value="-3">
+                                <label for="radio-31"> </label>
+                            </div>
+                            
+                            <div class="form_radio">
+                                <input id="radio-32" type="radio" name="radio3" value="-2">
+                                <label for="radio-32"> </label>
+                            </div>
+                            
+                            <div class="form_radio">
+                                <input id="radio-33" type="radio" name="radio3" value="-1">
+                                <label for="radio-33"> </label>
+                            </div>
+                            
+                            <div class="form_radio">
+                                <input id="radio-34" type="radio" name="radio3" value="1">
+                                <label for="radio-34"> </label>
+                            </div>  
+                            <div class="form_radio">
+                                <input id="radio-35" type="radio" name="radio3" value="2">
+                                <label for="radio-35"> </label>
+                            </div>  
+                            <div class="form_radio">
+                                <input id="radio-36" type="radio" name="radio3" value="3">
+                                <label for="radio-36"></label>
+                            </div>
+                        </div>
+                        <div class="b2">
+                            <div class="form_radio">
+                                <input id="radio-41" type="radio" name="radio4" value="-3">
+                                <label for="radio-41"> </label>
+                            </div>
+                            
+                            <div class="form_radio">
+                                <input id="radio-42" type="radio" name="radio4" value="-2">
+                                <label for="radio-42"> </label>
+                            </div>
+                            
+                            <div class="form_radio">
+                                <input id="radio-43" type="radio" name="radio4" value="-1">
+                                <label for="radio-43"> </label>
+                            </div>
+                            
+                            <div class="form_radio">
+                                <input id="radio-44" type="radio" name="radio4" value="1">
+                                <label for="radio-44"> </label>
+                            </div>  
+                            <div class="form_radio">
+                                <input id="radio-45" type="radio" name="radio4" value="2">
+                                <label for="radio-45"> </label>
+                            </div>  
+                            <div class="form_radio">
+                                <input id="radio-46" type="radio" name="radio4" value="3">
+                                <label for="radio-46"></label>
+                            </div>
+                        </div>  
+                        <div class="numbs1">
+                            <div class="val">
+                                <div class="numbm">-3</div>
+                                <div class="numbm">-2</div>
+                                <div class="numbm">-1</div>
+                            </div>
+                            <div class="val">
+                                <div class="numbp">1</div>
+                                <div class="numbp">2</div>
+                                <div class="numbp">3</div>
+                            </div>
+                        </div>
+                        <div class="numbs2">
+                            <div class="val">
+                                <div class="numbm">-3</div>
+                                <div class="numbm">-2</div>
+                                <div class="numbm">-1</div>
+                            </div>
+                            <div class="val">
+                                <div class="numbp">1</div>
+                                <div class="numbp">2</div>
+                                <div class="numbp">3</div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="table3">
+                    <div class="textleft1">Участвовать в оформлении книг, плакатов,
+                        журналов</div>
+                    <div class="textright1">Следить за состоянием и развитием растений</div>
+                    <div class="numbone">3</div>
+                    <div class="sitemid1"></div>
+                    <div class="choice">
+                        <div class="a3">
+                            <div class="form_radio">
+                                <input id="radio-51" type="radio" name="radio5" value="-3">
+                                <label for="radio-51"> </label>
+                            </div>
+                            
+                            <div class="form_radio">
+                                <input id="radio-52" type="radio" name="radio5" value="-2">
+                                <label for="radio-52"> </label>
+                            </div>
+                            
+                            <div class="form_radio">
+                                <input id="radio-53" type="radio" name="radio5" value="-1">
+                                <label for="radio-53"> </label>
+                            </div>
+                            
+                            <div class="form_radio">
+                                <input id="radio-54" type="radio" name="radio5" value="1">
+                                <label for="radio-54"> </label>
+                            </div>  
+                            <div class="form_radio">
+                                <input id="radio-55" type="radio" name="radio5" value="2">
+                                <label for="radio-55"> </label>
+                            </div>  
+                            <div class="form_radio">
+                                <input id="radio-56" type="radio" name="radio5" value="3">
+                                <label for="radio-56"></label>
+                            </div>
+                        </div>
+                        <div class="b3">
+                            <div class="form_radio">
+                                <input id="radio-61" type="radio" name="radio6" value="-3">
+                                <label for="radio-61"> </label>
+                            </div>
+                            
+                            <div class="form_radio">
+                                <input id="radio-62" type="radio" name="radio6" value="-2">
+                                <label for="radio-62"> </label>
+                            </div>
+                            
+                            <div class="form_radio">
+                                <input id="radio-63" type="radio" name="radio6" value="-1">
+                                <label for="radio-63"> </label>
+                            </div>
+                            
+                            <div class="form_radio">
+                                <input id="radio-64" type="radio" name="radio6" value="1">
+                                <label for="radio-64"> </label>
+                            </div>  
+                            <div class="form_radio">
+                                <input id="radio-65" type="radio" name="radio6" value="2">
+                                <label for="radio-65"> </label>
+                            </div>  
+                            <div class="form_radio">
+                                <input id="radio-66" type="radio" name="radio6" value="3">
+                                <label for="radio-66"></label>
+                            </div>
+                        </div>  
+                        <div class="numbs1">
+                            <div class="val">
+                                <div class="numbm">-3</div>
+                                <div class="numbm">-2</div>
+                                <div class="numbm">-1</div>
+                            </div>
+                            <div class="val">
+                                <div class="numbp">1</div>
+                                <div class="numbp">2</div>
+                                <div class="numbp">3</div>
+                            </div>
+                        </div>
+                        <div class="numbs2">
+                            <div class="val">
+                                <div class="numbm">-3</div>
+                                <div class="numbm">-2</div>
+                                <div class="numbm">-1</div>
+                            </div>
+                            <div class="val">
+                                <div class="numbp">1</div>
+                                <div class="numbp">2</div>
+                                <div class="numbp">3</div>
+                            </div>
+                        </div>
+                    </div>
+                </div> 
+                <div class="table4">
+                    <div class="textleft1">Обрабатывать материалы (древесину, ткань,
+                        металл, пластмассу и др.)</div>
+                    <div class="textright1">Доводить товары до потребителя (рекламировать)</div>
+                    <div class="numbone">4</div>
+                    <div class="sitemid1"></div>
+                    <div class="choice">
+                        <div class="a4">
+                            <div class="form_radio">
+                                <input id="radio-71" type="radio" name="radio7" value="-3">
+                                <label for="radio-71"> </label>
+                            </div>
+                            
+                            <div class="form_radio">
+                                <input id="radio-72" type="radio" name="radio7" value="-2">
+                                <label for="radio-72"> </label>
+                            </div>
+                            
+                            <div class="form_radio">
+                                <input id="radio-73" type="radio" name="radio7" value="-1">
+                                <label for="radio-73"> </label>
+                            </div>
+                            
+                            <div class="form_radio">
+                                <input id="radio-74" type="radio" name="radio7" value="1">
+                                <label for="radio-74"> </label>
+                            </div>  
+                            <div class="form_radio">
+                                <input id="radio-75" type="radio" name="radio7" value="2">
+                                <label for="radio-75"> </label>
+                            </div>  
+                            <div class="form_radio">
+                                <input id="radio-76" type="radio" name="radio7" value="3">
+                                <label for="radio-76"></label>
+                            </div>
+                        </div>
+                        <div class="b4">
+                            <div class="form_radio">
+                                <input id="radio-81" type="radio" name="radio8" value="-3">
+                                <label for="radio-81"> </label>
+                            </div>
+                            
+                            <div class="form_radio">
+                                <input id="radio-82" type="radio" name="radio8" value="-2">
+                                <label for="radio-82"> </label>
+                            </div>
+                            
+                            <div class="form_radio">
+                                <input id="radio-83" type="radio" name="radio8" value="-1">
+                                <label for="radio-83"> </label>
+                            </div>
+                            
+                            <div class="form_radio">
+                                <input id="radio-84" type="radio" name="radio8" value="1">
+                                <label for="radio-84"> </label>
+                            </div>  
+                            <div class="form_radio">
+                                <input id="radio-85" type="radio" name="radio8" value="2">
+                                <label for="radio-85"> </label>
+                            </div>  
+                            <div class="form_radio">
+                                <input id="radio-86" type="radio" name="radio8" value="3">
+                                <label for="radio-86"></label>
+                            </div>
+                        </div>  
+                        <div class="numbs1">
+                            <div class="val">
+                                <div class="numbm">-3</div>
+                                <div class="numbm">-2</div>
+                                <div class="numbm">-1</div>
+                            </div>
+                            <div class="val">
+                                <div class="numbp">1</div>
+                                <div class="numbp">2</div>
+                                <div class="numbp">3</div>
+                            </div>
+                        </div>
+                        <div class="numbs2">
+                            <div class="val">
+                                <div class="numbm">-3</div>
+                                <div class="numbm">-2</div>
+                                <div class="numbm">-1</div>
+                            </div>
+                            <div class="val">
+                                <div class="numbp">1</div>
+                                <div class="numbp">2</div>
+                                <div class="numbp">3</div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="table5">
+                    <div class="textleft1">Обсуждать научно-популярные книги, статьи</div>
+                    <div class="textright1">Обсуждать художественные книги (или пьесы, концерты)</div>
+                    <div class="numbone">5</div>
+                    <div class="sitemid1"></div>
+                    <div class="choice">
+                        <div class="a5">
+                            <div class="form_radio">
+                                <input id="radio-91" type="radio" name="radio9" value="-3">
+                                <label for="radio-91"> </label>
+                            </div>
+                            
+                            <div class="form_radio">
+                                <input id="radio-92" type="radio" name="radio9" value="-2">
+                                <label for="radio-92"> </label>
+                            </div>
+                            
+                            <div class="form_radio">
+                                <input id="radio-93" type="radio" name="radio9" value="-1">
+                                <label for="radio-93"> </label>
+                            </div>
+                            
+                            <div class="form_radio">
+                                <input id="radio-94" type="radio" name="radio9" value="1">
+                                <label for="radio-94"> </label>
+                            </div>  
+                            <div class="form_radio">
+                                <input id="radio-95" type="radio" name="radio9" value="2">
+                                <label for="radio-95"> </label>
+                            </div>  
+                            <div class="form_radio">
+                                <input id="radio-96" type="radio" name="radio9" value="3">
+                                <label for="radio-96"></label>
+                            </div>
+                        </div>
+                        <div class="b5">
+                            <div class="form_radio">
+                                <input id="radio-101" type="radio" name="radio10" value="-3">
+                                <label for="radio-101"> </label>
+                            </div>
+                            
+                            <div class="form_radio">
+                                <input id="radio-102" type="radio" name="radio10" value="-2">
+                                <label for="radio-102"> </label>
+                            </div>
+                            
+                            <div class="form_radio">
+                                <input id="radio-103" type="radio" name="radio10" value="-1">
+                                <label for="radio-103"> </label>
+                            </div>
+                            
+                            <div class="form_radio">
+                                <input id="radio-104" type="radio" name="radio10" value="1">
+                                <label for="radio-104"> </label>
+                            </div>  
+                            <div class="form_radio">
+                                <input id="radio-105" type="radio" name="radio10" value="2">
+                                <label for="radio-105"> </label>
+                            </div>  
+                            <div class="form_radio">
+                                <input id="radio-106" type="radio" name="radio10" value="3">
+                                <label for="radio-106"></label>
+                            </div>
+                        </div>  
+                        <div class="numbs1">
+                            <div class="val">
+                                <div class="numbm">-3</div>
+                                <div class="numbm">-2</div>
+                                <div class="numbm">-1</div>
+                            </div>
+                            <div class="val">
+                                <div class="numbp">1</div>
+                                <div class="numbp">2</div>
+                                <div class="numbp">3</div>
+                            </div>
+                        </div>
+                        <div class="numbs2">
+                            <div class="val">
+                                <div class="numbm">-3</div>
+                                <div class="numbm">-2</div>
+                                <div class="numbm">-1</div>
+                            </div>
+                            <div class="val">
+                                <div class="numbp">1</div>
+                                <div class="numbp">2</div>
+                                <div class="numbp">3</div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="table6">
+                    <div class="textleft1">Содержать животных</div>
+                    <div class="textright1">Тренировать товарищей (или младших школьников) в выполнении каких-либо действий (трудовых, учебных, спортивных)</div>
+                    <div class="numbone">6</div>
+                    <div class="sitemid1"></div>
+                    <div class="choice">
+                        <div class="a6">
+                            <div class="form_radio">
+                                <input id="radio-111" type="radio" name="radio11" value="-3">
+                                <label for="radio-111"> </label>
+                            </div>
+                            
+                            <div class="form_radio">
+                                <input id="radio-112" type="radio" name="radio11" value="-2">
+                                <label for="radio-112"> </label>
+                            </div>
+                            
+                            <div class="form_radio">
+                                <input id="radio-113" type="radio" name="radio11" value="-1">
+                                <label for="radio-113"> </label>
+                            </div>
+                            
+                            <div class="form_radio">
+                                <input id="radio-114" type="radio" name="radio11" value="1">
+                                <label for="radio-114"> </label>
+                            </div>  
+                            <div class="form_radio">
+                                <input id="radio-115" type="radio" name="radio11" value="2">
+                                <label for="radio-115"> </label>
+                            </div>  
+                            <div class="form_radio">
+                                <input id="radio-116" type="radio" name="radio11" value="3">
+                                <label for="radio-116"></label>
+                            </div>
+                        </div>
+                        <div class="b6">
+                            <div class="form_radio">
+                                <input id="radio-121" type="radio" name="radio12" value="-3">
+                                <label for="radio-121"> </label>
+                            </div>
+                            
+                            <div class="form_radio">
+                                <input id="radio-122" type="radio" name="radio12" value="-2">
+                                <label for="radio-122"> </label>
+                            </div>
+                            
+                            <div class="form_radio">
+                                <input id="radio-123" type="radio" name="radio12" value="-1">
+                                <label for="radio-123"> </label>
+                            </div>
+                            
+                            <div class="form_radio">
+                                <input id="radio-124" type="radio" name="radio12" value="1">
+                                <label for="radio-124"> </label>
+                            </div>  
+                            <div class="form_radio">
+                                <input id="radio-125" type="radio" name="radio12" value="2">
+                                <label for="radio-125"> </label>
+                            </div>  
+                            <div class="form_radio">
+                                <input id="radio-126" type="radio" name="radio12" value="3">
+                                <label for="radio-126"></label>
+                            </div>
+                        </div>  
+                        <div class="numbs1">
+                            <div class="val">
+                                <div class="numbm">-3</div>
+                                <div class="numbm">-2</div>
+                                <div class="numbm">-1</div>
+                            </div>
+                            <div class="val">
+                                <div class="numbp">1</div>
+                                <div class="numbp">2</div>
+                                <div class="numbp">3</div>
+                            </div>
+                        </div>
+                        <div class="numbs2">
+                            <div class="val">
+                                <div class="numbm">-3</div>
+                                <div class="numbm">-2</div>
+                                <div class="numbm">-1</div>
+                            </div>
+                            <div class="val">
+                                <div class="numbp">1</div>
+                                <div class="numbp">2</div>
+                                <div class="numbp">3</div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="table7">
+                    <div class="textleft1">Копировать рисунки, изображения (или
+                        настраивать музыкальные инструменты)</div>
+                    <div class="textright1">Управлять подъемным краном, трактором, тепловозом и т. п.</div>
+                    <div class="numbone">7</div>
+                    <div class="sitemid1"></div>
+                    <div class="choice">
+                        <div class="a7">
+                            <div class="form_radio">
+                                <input id="radio-131" type="radio" name="radio13" value="-3">
+                                <label for="radio-131"> </label>
+                            </div>
+                            
+                            <div class="form_radio">
+                                <input id="radio-132" type="radio" name="radio13" value="-2">
+                                <label for="radio-132"> </label>
+                            </div>
+                            
+                            <div class="form_radio">
+                                <input id="radio-133" type="radio" name="radio13" value="-1">
+                                <label for="radio-133"> </label>
+                            </div>
+                            
+                            <div class="form_radio">
+                                <input id="radio-134" type="radio" name="radio13" value="1">
+                                <label for="radio-134"> </label>
+                            </div>  
+                            <div class="form_radio">
+                                <input id="radio-135" type="radio" name="radio13" value="2">
+                                <label for="radio-135"> </label>
+                            </div>  
+                            <div class="form_radio">
+                                <input id="radio-136" type="radio" name="radio13" value="3">
+                                <label for="radio-136"></label>
+                            </div>
+                        </div>
+                        <div class="b7">
+                            <div class="form_radio">
+                                <input id="radio-141" type="radio" name="radio14" value="-3">
+                                <label for="radio-141"> </label>
+                            </div>
+                            
+                            <div class="form_radio">
+                                <input id="radio-142" type="radio" name="radio14" value="-2">
+                                <label for="radio-142"> </label>
+                            </div>
+                            
+                            <div class="form_radio">
+                                <input id="radio-143" type="radio" name="radio14" value="-1">
+                                <label for="radio-143"> </label>
+                            </div>
+                            
+                            <div class="form_radio">
+                                <input id="radio-144" type="radio" name="radio14" value="1">
+                                <label for="radio-144"> </label>
+                            </div>  
+                            <div class="form_radio">
+                                <input id="radio-145" type="radio" name="radio14" value="2">
+                                <label for="radio-145"> </label>
+                            </div>  
+                            <div class="form_radio">
+                                <input id="radio-146" type="radio" name="radio14" value="3">
+                                <label for="radio-146"></label>
+                            </div>
+                        </div>  
+                        <div class="numbs1">
+                            <div class="val">
+                                <div class="numbm">-3</div>
+                                <div class="numbm">-2</div>
+                                <div class="numbm">-1</div>
+                            </div>
+                            <div class="val">
+                                <div class="numbp">1</div>
+                                <div class="numbp">2</div>
+                                <div class="numbp">3</div>
+                            </div>
+                        </div>
+                        <div class="numbs2">
+                            <div class="val">
+                                <div class="numbm">-3</div>
+                                <div class="numbm">-2</div>
+                                <div class="numbm">-1</div>
+                            </div>
+                            <div class="val">
+                                <div class="numbp">1</div>
+                                <div class="numbp">2</div>
+                                <div class="numbp">3</div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="table8">
+                    <div class="textleft1">Сообщать (разъяснять) людям какие-либо
+                        сведения (в справочном бюро, на экскурсии)</div>
+                    <div class="textright1">Художественно оформлять выставки, витрины (или участвовать в подготовке пьес, концертов)</div>
+                    <div class="numbone">8</div>
+                    <div class="sitemid1"></div>
+                    <div class="choice">
+                        <div class="a8">
+                            <div class="form_radio">
+                                <input id="radio-151" type="radio" name="radio15" value="-3">
+                                <label for="radio-151"> </label>
+                            </div>
+                            
+                            <div class="form_radio">
+                                <input id="radio-152" type="radio" name="radio15" value="-2">
+                                <label for="radio-152"> </label>
+                            </div>
+                            
+                            <div class="form_radio">
+                                <input id="radio-153" type="radio" name="radio15" value="-1">
+                                <label for="radio-153"> </label>
+                            </div>
+                            
+                            <div class="form_radio">
+                                <input id="radio-154" type="radio" name="radio15" value="1">
+                                <label for="radio-154"> </label>
+                            </div>  
+                            <div class="form_radio">
+                                <input id="radio-155" type="radio" name="radio15" value="2">
+                                <label for="radio-155"> </label>
+                            </div>  
+                            <div class="form_radio">
+                                <input id="radio-156" type="radio" name="radio15" value="3">
+                                <label for="radio-156"></label>
+                            </div>
+                        </div>
+                        <div class="b8">
+                            <div class="form_radio">
+                                <input id="radio-161" type="radio" name="radio16" value="-3">
+                                <label for="radio-161"> </label>
+                            </div>
+                            
+                            <div class="form_radio">
+                                <input id="radio-162" type="radio" name="radio16" value="-2">
+                                <label for="radio-162"> </label>
+                            </div>
+                            
+                            <div class="form_radio">
+                                <input id="radio-163" type="radio" name="radio16" value="-1">
+                                <label for="radio-163"> </label>
+                            </div>
+                            
+                            <div class="form_radio">
+                                <input id="radio-164" type="radio" name="radio16" value="1">
+                                <label for="radio-164"> </label>
+                            </div>  
+                            <div class="form_radio">
+                                <input id="radio-165" type="radio" name="radio16" value="2">
+                                <label for="radio-165"> </label>
+                            </div>  
+                            <div class="form_radio">
+                                <input id="radio-166" type="radio" name="radio16" value="3">
+                                <label for="radio-166"></label>
+                            </div>
+                        </div>  
+                        <div class="numbs1">
+                            <div class="val">
+                                <div class="numbm">-3</div>
+                                <div class="numbm">-2</div>
+                                <div class="numbm">-1</div>
+                            </div>
+                            <div class="val">
+                                <div class="numbp">1</div>
+                                <div class="numbp">2</div>
+                                <div class="numbp">3</div>
+                            </div>
+                        </div>
+                        <div class="numbs2">
+                            <div class="val">
+                                <div class="numbm">-3</div>
+                                <div class="numbm">-2</div>
+                                <div class="numbm">-1</div>
+                            </div>
+                            <div class="val">
+                                <div class="numbp">1</div>
+                                <div class="numbp">2</div>
+                                <div class="numbp">3</div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="table9">
+                    <div class="textleft1">Ремонтировать вещи (одежду, технику),
+                        жилище</div>
+                    <div class="textright1">Искать и исправлять ошибки в текстах, таблицах, рисунках</div>
+                    <div class="numbone">9</div>
+                    <div class="sitemid1"></div>
+                    <div class="choice">
+                        <div class="a9">
+                            <div class="form_radio">
+                                <input id="radio-171" type="radio" name="radio17" value="-3">
+                                <label for="radio-171"> </label>
+                            </div>
+                            
+                            <div class="form_radio">
+                                <input id="radio-172" type="radio" name="radio17" value="-2">
+                                <label for="radio-172"> </label>
+                            </div>
+                            
+                            <div class="form_radio">
+                                <input id="radio-173" type="radio" name="radio17" value="-1">
+                                <label for="radio-173"> </label>
+                            </div>
+                            
+                            <div class="form_radio">
+                                <input id="radio-174" type="radio" name="radio17" value="1">
+                                <label for="radio-174"> </label>
+                            </div>  
+                            <div class="form_radio">
+                                <input id="radio-175" type="radio" name="radio17" value="2">
+                                <label for="radio-175"> </label>
+                            </div>  
+                            <div class="form_radio">
+                                <input id="radio-176" type="radio" name="radio17" value="3">
+                                <label for="radio-176"></label>
+                            </div>
+                        </div>
+                        <div class="b9">
+                            <div class="form_radio">
+                                <input id="radio-181" type="radio" name="radio18" value="-3">
+                                <label for="radio-181"> </label>
+                            </div>
+                            
+                            <div class="form_radio">
+                                <input id="radio-182" type="radio" name="radio18" value="-2">
+                                <label for="radio-182"> </label>
+                            </div>
+                            
+                            <div class="form_radio">
+                                <input id="radio-183" type="radio" name="radio18" value="-1">
+                                <label for="radio-183"> </label>
+                            </div>
+                            
+                            <div class="form_radio">
+                                <input id="radio-184" type="radio" name="radio18" value="1">
+                                <label for="radio-184"> </label>
+                            </div>  
+                            <div class="form_radio">
+                                <input id="radio-185" type="radio" name="radio18" value="2">
+                                <label for="radio-185"> </label>
+                            </div>  
+                            <div class="form_radio">
+                                <input id="radio-186" type="radio" name="radio18" value="3">
+                                <label for="radio-186"></label>
+                            </div>
+                        </div>  
+                        <div class="numbs1">
+                            <div class="val">
+                                <div class="numbm">-3</div>
+                                <div class="numbm">-2</div>
+                                <div class="numbm">-1</div>
+                            </div>
+                            <div class="val">
+                                <div class="numbp">1</div>
+                                <div class="numbp">2</div>
+                                <div class="numbp">3</div>
+                            </div>
+                        </div>
+                        <div class="numbs2">
+                            <div class="val">
+                                <div class="numbm">-3</div>
+                                <div class="numbm">-2</div>
+                                <div class="numbm">-1</div>
+                            </div>
+                            <div class="val">
+                                <div class="numbp">1</div>
+                                <div class="numbp">2</div>
+                                <div class="numbp">3</div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="table10">
+                    <div class="textleft1">Лечить животных</div>
+                    <div class="textright1">Выполнять вычисления, расчеты</div>
+                    <div class="numbtwo">10</div>
+                    <div class="sitemid1"></div>
+                    <div class="choice">
+                        <div class="a10">
+                            <div class="form_radio">
+                                <input id="radio-191" type="radio" name="radio19" value="-3">
+                                <label for="radio-191"> </label>
+                            </div>
+                            
+                            <div class="form_radio">
+                                <input id="radio-192" type="radio" name="radio19" value="-2">
+                                <label for="radio-192"> </label>
+                            </div>
+                            
+                            <div class="form_radio">
+                                <input id="radio-193" type="radio" name="radio19" value="-1">
+                                <label for="radio-193"> </label>
+                            </div>
+                            
+                            <div class="form_radio">
+                                <input id="radio-194" type="radio" name="radio19" value="1">
+                                <label for="radio-194"> </label>
+                            </div>  
+                            <div class="form_radio">
+                                <input id="radio-195" type="radio" name="radio19" value="2">
+                                <label for="radio-195"> </label>
+                            </div>  
+                            <div class="form_radio">
+                                <input id="radio-196" type="radio" name="radio19" value="3">
+                                <label for="radio-196"></label>
+                            </div>
+                        </div>
+                        <div class="b10">
+                            <div class="form_radio">
+                                <input id="radio-201" type="radio" name="radio20" value="-3">
+                                <label for="radio-201"> </label>
+                            </div>
+                            
+                            <div class="form_radio">
+                                <input id="radio-202" type="radio" name="radio20" value="-2">
+                                <label for="radio-202"> </label>
+                            </div>
+                            
+                            <div class="form_radio">
+                                <input id="radio-203" type="radio" name="radio20" value="-1">
+                                <label for="radio-203"> </label>
+                            </div>
+                            
+                            <div class="form_radio">
+                                <input id="radio-204" type="radio" name="radio20" value="1">
+                                <label for="radio-204"> </label>
+                            </div>  
+                            <div class="form_radio">
+                                <input id="radio-205" type="radio" name="radio20" value="2">
+                                <label for="radio-205"> </label>
+                            </div>  
+                            <div class="form_radio">
+                                <input id="radio-206" type="radio" name="radio20" value="3">
+                                <label for="radio-206"></label>
+                            </div>
+                        </div>  
+                        <div class="numbs1">
+                            <div class="val">
+                                <div class="numbm">-3</div>
+                                <div class="numbm">-2</div>
+                                <div class="numbm">-1</div>
+                            </div>
+                            <div class="val">
+                                <div class="numbp">1</div>
+                                <div class="numbp">2</div>
+                                <div class="numbp">3</div>
+                            </div>
+                        </div>
+                        <div class="numbs2">
+                            <div class="val">
+                                <div class="numbm">-3</div>
+                                <div class="numbm">-2</div>
+                                <div class="numbm">-1</div>
+                            </div>
+                            <div class="val">
+                                <div class="numbp">1</div>
+                                <div class="numbp">2</div>
+                                <div class="numbp">3</div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="table11">
+                    <div class="textleft1">Выводить новые сорта растений</div>
+                    <div class="textright1">Конструировать, проектировать новые виды изделий (машины, одежду, дома и т. п.)</div>
+                    <div class="numbtwo">11</div>
+                    <div class="sitemid1"></div>
+                    <div class="choice">
+                        <div class="a11">
+                            <div class="form_radio">
+                                <input id="radio-211" type="radio" name="radio21" value="-3">
+                                <label for="radio-211"> </label>
+                            </div>
+                            
+                            <div class="form_radio">
+                                <input id="radio-212" type="radio" name="radio21" value="-2">
+                                <label for="radio-212"> </label>
+                            </div>
+                            
+                            <div class="form_radio">
+                                <input id="radio-213" type="radio" name="radio21" value="-1">
+                                <label for="radio-213"> </label>
+                            </div>
+                            
+                            <div class="form_radio">
+                                <input id="radio-214" type="radio" name="radio21" value="1">
+                                <label for="radio-214"> </label>
+                            </div>  
+                            <div class="form_radio">
+                                <input id="radio-215" type="radio" name="radio21" value="2">
+                                <label for="radio-215"> </label>
+                            </div>  
+                            <div class="form_radio">
+                                <input id="radio-216" type="radio" name="radio21" value="3">
+                                <label for="radio-216"></label>
+                            </div>
+                        </div>
+                        <div class="b11">
+                            <div class="form_radio">
+                                <input id="radio-221" type="radio" name="radio22" value="-3">
+                                <label for="radio-221"> </label>
+                            </div>
+                            
+                            <div class="form_radio">
+                                <input id="radio-222" type="radio" name="radio22" value="-2">
+                                <label for="radio-222"> </label>
+                            </div>
+                            
+                            <div class="form_radio">
+                                <input id="radio-223" type="radio" name="radio22" value="-1">
+                                <label for="radio-223"> </label>
+                            </div>
+                            
+                            <div class="form_radio">
+                                <input id="radio-224" type="radio" name="radio22" value="1">
+                                <label for="radio-224"> </label>
+                            </div>  
+                            <div class="form_radio">
+                                <input id="radio-225" type="radio" name="radio22" value="2">
+                                <label for="radio-225"> </label>
+                            </div>  
+                            <div class="form_radio">
+                                <input id="radio-226" type="radio" name="radio22" value="3">
+                                <label for="radio-226"></label>
+                            </div>
+                        </div>  
+                        <div class="numbs1">
+                            <div class="val">
+                                <div class="numbm">-3</div>
+                                <div class="numbm">-2</div>
+                                <div class="numbm">-1</div>
+                            </div>
+                            <div class="val">
+                                <div class="numbp">1</div>
+                                <div class="numbp">2</div>
+                                <div class="numbp">3</div>
+                            </div>
+                        </div>
+                        <div class="numbs2">
+                            <div class="val">
+                                <div class="numbm">-3</div>
+                                <div class="numbm">-2</div>
+                                <div class="numbm">-1</div>
+                            </div>
+                            <div class="val">
+                                <div class="numbp">1</div>
+                                <div class="numbp">2</div>
+                                <div class="numbp">3</div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="table12">
+                    <div class="textleft1">Разрешать споры, предупреждать ссоры,
+                        убеждать, разъяснять, поощрять, наказывать</div>
+                    <div class="textright1">Разбираться в чертежах, схемах, таблицах (проверять, уточнять, приводить в порядок)</div>
+                    <div class="numbtwo">12</div>
+                    <div class="sitemid1"></div>
+                    <div class="choice">
+                        <div class="a12">
+                            <div class="form_radio">
+                                <input id="radio-231" type="radio" name="radio23" value="-3">
+                                <label for="radio-231"> </label>
+                            </div>
+                            
+                            <div class="form_radio">
+                                <input id="radio-232" type="radio" name="radio23" value="-2">
+                                <label for="radio-232"> </label>
+                            </div>
+                            
+                            <div class="form_radio">
+                                <input id="radio-233" type="radio" name="radio23" value="-1">
+                                <label for="radio-233"> </label>
+                            </div>
+                            
+                            <div class="form_radio">
+                                <input id="radio-234" type="radio" name="radio23" value="1">
+                                <label for="radio-234"> </label>
+                            </div>  
+                            <div class="form_radio">
+                                <input id="radio-235" type="radio" name="radio23" value="2">
+                                <label for="radio-235"> </label>
+                            </div>  
+                            <div class="form_radio">
+                                <input id="radio-236" type="radio" name="radio23" value="3">
+                                <label for="radio-236"></label>
+                            </div>
+                        </div>
+                        <div class="b12">
+                            <div class="form_radio">
+                                <input id="radio-243" type="radio" name="radio24" value="-3">
+                                <label for="radio-243"> </label>
+                            </div>
+                            
+                            <div class="form_radio">
+                                <input id="radio-242" type="radio" name="radio24" value="-2">
+                                <label for="radio-242"> </label>
+                            </div>
+                            
+                            <div class="form_radio">
+                                <input id="radio-243" type="radio" name="radio24" value="-1">
+                                <label for="radio-243"> </label>
+                            </div>
+                            
+                            <div class="form_radio">
+                                <input id="radio-244" type="radio" name="radio24" value="1">
+                                <label for="radio-244"> </label>
+                            </div>  
+                            <div class="form_radio">
+                                <input id="radio-245" type="radio" name="radio24" value="2">
+                                <label for="radio-245"> </label>
+                            </div>  
+                            <div class="form_radio">
+                                <input id="radio-246" type="radio" name="radio24" value="3">
+                                <label for="radio-246"></label>
+                            </div>
+                        </div>  
+                        <div class="numbs1">
+                            <div class="val">
+                                <div class="numbm">-3</div>
+                                <div class="numbm">-2</div>
+                                <div class="numbm">-1</div>
+                            </div>
+                            <div class="val">
+                                <div class="numbp">1</div>
+                                <div class="numbp">2</div>
+                                <div class="numbp">3</div>
+                            </div>
+                        </div>
+                        <div class="numbs2">
+                            <div class="val">
+                                <div class="numbm">-3</div>
+                                <div class="numbm">-2</div>
+                                <div class="numbm">-1</div>
+                            </div>
+                            <div class="val">
+                                <div class="numbp">1</div>
+                                <div class="numbp">2</div>
+                                <div class="numbp">3</div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="table13">
+                    <div class="textleft1">Участвовать в работе кружков
+                        художественной самодеятельности</div>
+                    <div class="textright1">Наблюдать, изучать жизнь микробов</div>
+                    <div class="numbtwo">13</div>
+                    <div class="sitemid1"></div>
+                    <div class="choice">
+                        <div class="a13">
+                            <div class="form_radio">
+                                <input id="radio-251" type="radio" name="radio25" value="-3">
+                                <label for="radio-251"> </label>
+                            </div>
+                            
+                            <div class="form_radio">
+                                <input id="radio-252" type="radio" name="radio25" value="-2">
+                                <label for="radio-252"> </label>
+                            </div>
+                            
+                            <div class="form_radio">
+                                <input id="radio-253" type="radio" name="radio25" value="-1">
+                                <label for="radio-253"> </label>
+                            </div>
+                            
+                            <div class="form_radio">
+                                <input id="radio-254" type="radio" name="radio25" value="1">
+                                <label for="radio-254"> </label>
+                            </div>  
+                            <div class="form_radio">
+                                <input id="radio-255" type="radio" name="radio25" value="2">
+                                <label for="radio-255"> </label>
+                            </div>  
+                            <div class="form_radio">
+                                <input id="radio-256" type="radio" name="radio25" value="3">
+                                <label for="radio-256"></label>
+                            </div>
+                        </div>
+                        <div class="b13">
+                            <div class="form_radio">
+                                <input id="radio-261" type="radio" name="radio26" value="-3">
+                                <label for="radio-261"> </label>
+                            </div>
+                            
+                            <div class="form_radio">
+                                <input id="radio-262" type="radio" name="radio26" value="-2">
+                                <label for="radio-262"> </label>
+                            </div>
+                            
+                            <div class="form_radio">
+                                <input id="radio-263" type="radio" name="radio26" value="-1">
+                                <label for="radio-263"> </label>
+                            </div>
+                            
+                            <div class="form_radio">
+                                <input id="radio-264" type="radio" name="radio26" value="1">
+                                <label for="radio-264"> </label>
+                            </div>  
+                            <div class="form_radio">
+                                <input id="radio-265" type="radio" name="radio26" value="2">
+                                <label for="radio-265"> </label>
+                            </div>  
+                            <div class="form_radio">
+                                <input id="radio-266" type="radio" name="radio26" value="3">
+                                <label for="radio-266"></label>
+                            </div>
+                        </div>  
+                        <div class="numbs1">
+                            <div class="val">
+                                <div class="numbm">-3</div>
+                                <div class="numbm">-2</div>
+                                <div class="numbm">-1</div>
+                            </div>
+                            <div class="val">
+                                <div class="numbp">1</div>
+                                <div class="numbp">2</div>
+                                <div class="numbp">3</div>
+                            </div>
+                        </div>
+                        <div class="numbs2">
+                            <div class="val">
+                                <div class="numbm">-3</div>
+                                <div class="numbm">-2</div>
+                                <div class="numbm">-1</div>
+                            </div>
+                            <div class="val">
+                                <div class="numbp">1</div>
+                                <div class="numbp">2</div>
+                                <div class="numbp">3</div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="table14">
+                    <div class="textleft1">Налаживать медицинские приборы,
+                        аппараты</div>
+                    <div class="textright1">Оказывать людям медицинскую помощь при ранениях, ушибах и <br>т. п.</div>
+                    <div class="numbtwo">14</div>
+                    <div class="sitemid1"></div>
+                    <div class="choice">
+                        <div class="a14">
+                            <div class="form_radio">
+                                <input id="radio-271" type="radio" name="radio27" value="-3">
+                                <label for="radio-271"> </label>
+                            </div>
+                            
+                            <div class="form_radio">
+                                <input id="radio-272" type="radio" name="radio27" value="-2">
+                                <label for="radio-272"> </label>
+                            </div>
+                            
+                            <div class="form_radio">
+                                <input id="radio-273" type="radio" name="radio27" value="-1">
+                                <label for="radio-273"> </label>
+                            </div>
+                            
+                            <div class="form_radio">
+                                <input id="radio-274" type="radio" name="radio27" value="1">
+                                <label for="radio-274"> </label>
+                            </div>  
+                            <div class="form_radio">
+                                <input id="radio-275" type="radio" name="radio27" value="2">
+                                <label for="radio-275"> </label>
+                            </div>  
+                            <div class="form_radio">
+                                <input id="radio-276" type="radio" name="radio27" value="3">
+                                <label for="radio-276"></label>
+                            </div>
+                        </div>
+                        <div class="b14">
+                            <div class="form_radio">
+                                <input id="radio-281" type="radio" name="radio28" value="-3">
+                                <label for="radio-281"> </label>
+                            </div>
+                            
+                            <div class="form_radio">
+                                <input id="radio-282" type="radio" name="radio28" value="-2">
+                                <label for="radio-282"> </label>
+                            </div>
+                            
+                            <div class="form_radio">
+                                <input id="radio-283" type="radio" name="radio28" value="-1">
+                                <label for="radio-283"> </label>
+                            </div>
+                            
+                            <div class="form_radio">
+                                <input id="radio-284" type="radio" name="radio28" value="1">
+                                <label for="radio-284"> </label>
+                            </div>  
+                            <div class="form_radio">
+                                <input id="radio-285" type="radio" name="radio28" value="2">
+                                <label for="radio-285"> </label>
+                            </div>  
+                            <div class="form_radio">
+                                <input id="radio-286" type="radio" name="radio28" value="3">
+                                <label for="radio-286"></label>
+                            </div>
+                        </div>  
+                        <div class="numbs1">
+                            <div class="val">
+                                <div class="numbm">-3</div>
+                                <div class="numbm">-2</div>
+                                <div class="numbm">-1</div>
+                            </div>
+                            <div class="val">
+                                <div class="numbp">1</div>
+                                <div class="numbp">2</div>
+                                <div class="numbp">3</div>
+                            </div>
+                        </div>
+                        <div class="numbs2">
+                            <div class="val">
+                                <div class="numbm">-3</div>
+                                <div class="numbm">-2</div>
+                                <div class="numbm">-1</div>
+                            </div>
+                            <div class="val">
+                                <div class="numbp">1</div>
+                                <div class="numbp">2</div>
+                                <div class="numbp">3</div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="table15">
+                    <div class="textleft1">Составлять точные описания, отчеты о
+                        наблюдаемых явлениях, событиях, измеряемых
+                        объектах и т.п.</div>
+                    <div class="textright1">Художественно описывать, отображать события (наблюдаемые или представляемые)</div>
+                    <div class="numbtwo">15</div>
+                    <div class="sitemid1"></div>
+                    <div class="choice">
+                        <div class="a15">
+                            <div class="form_radio">
+                                <input id="radio-291" type="radio" name="radio29" value="-3">
+                                <label for="radio-291"> </label>
+                            </div>
+                            
+                            <div class="form_radio">
+                                <input id="radio-292" type="radio" name="radio29" value="-2">
+                                <label for="radio-292"> </label>
+                            </div>
+                            
+                            <div class="form_radio">
+                                <input id="radio-293" type="radio" name="radio29" value="-1">
+                                <label for="radio-293"> </label>
+                            </div>
+                            
+                            <div class="form_radio">
+                                <input id="radio-294" type="radio" name="radio29" value="1">
+                                <label for="radio-294"> </label>
+                            </div>  
+                            <div class="form_radio">
+                                <input id="radio-295" type="radio" name="radio29" value="2">
+                                <label for="radio-295"> </label>
+                            </div>  
+                            <div class="form_radio">
+                                <input id="radio-296" type="radio" name="radio29" value="3">
+                                <label for="radio-296"></label>
+                            </div>
+                        </div>
+                        <div class="b15">
+                            <div class="form_radio">
+                                <input id="radio-301" type="radio" name="radio30" value="-3">
+                                <label for="radio-301"> </label>
+                            </div>
+                            
+                            <div class="form_radio">
+                                <input id="radio-302" type="radio" name="radio30" value="-2">
+                                <label for="radio-302"> </label>
+                            </div>
+                            
+                            <div class="form_radio">
+                                <input id="radio-303" type="radio" name="radio30" value="-1">
+                                <label for="radio-303"> </label>
+                            </div>
+                            
+                            <div class="form_radio">
+                                <input id="radio-304" type="radio" name="radio30" value="1">
+                                <label for="radio-304"> </label>
+                            </div>  
+                            <div class="form_radio">
+                                <input id="radio-305" type="radio" name="radio30" value="2">
+                                <label for="radio-305"> </label>
+                            </div>  
+                            <div class="form_radio">
+                                <input id="radio-306" type="radio" name="radio30" value="3">
+                                <label for="radio-306"></label>
+                            </div>
+                        </div>  
+                        <div class="numbs1">
+                            <div class="val">
+                                <div class="numbm">-3</div>
+                                <div class="numbm">-2</div>
+                                <div class="numbm">-1</div>
+                            </div>
+                            <div class="val">
+                                <div class="numbp">1</div>
+                                <div class="numbp">2</div>
+                                <div class="numbp">3</div>
+                            </div>
+                        </div>
+                        <div class="numbs2">
+                            <div class="val">
+                                <div class="numbm">-3</div>
+                                <div class="numbm">-2</div>
+                                <div class="numbm">-1</div>
+                            </div>
+                            <div class="val">
+                                <div class="numbp">1</div>
+                                <div class="numbp">2</div>
+                                <div class="numbp">3</div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="table16">
+                    <div class="textleft1">Выполнять лабораторные анализы в
+                        больнице</div>
+                    <div class="textright1">Принимать, осматривать больных, беседовать с ними, назначать лечение</div>
+                    <div class="numbtwo">16</div>
+                    <div class="sitemid1"></div>
+                    <div class="choice">
+                        <div class="a16">
+                            <div class="form_radio">
+                                <input id="radio-311" type="radio" name="radio31" value="-3">
+                                <label for="radio-311"> </label>
+                            </div>
+                            
+                            <div class="form_radio">
+                                <input id="radio-312" type="radio" name="radio31" value="-2">
+                                <label for="radio-312"> </label>
+                            </div>
+                            
+                            <div class="form_radio">
+                                <input id="radio-313" type="radio" name="radio31" value="-1">
+                                <label for="radio-313"> </label>
+                            </div>
+                            
+                            <div class="form_radio">
+                                <input id="radio-314" type="radio" name="radio31" value="1">
+                                <label for="radio-314"> </label>
+                            </div>  
+                            <div class="form_radio">
+                                <input id="radio-315" type="radio" name="radio31" value="2">
+                                <label for="radio-315"> </label>
+                            </div>  
+                            <div class="form_radio">
+                                <input id="radio-316" type="radio" name="radio31" value="3">
+                                <label for="radio-316"></label>
+                            </div>
+                        </div>
+                        <div class="b16">
+                            <div class="form_radio">
+                                <input id="radio-321" type="radio" name="radio32" value="-3">
+                                <label for="radio-321"> </label>
+                            </div>
+                            
+                            <div class="form_radio">
+                                <input id="radio-322" type="radio" name="radio32" value="-2">
+                                <label for="radio-322"> </label>
+                            </div>
+                            
+                            <div class="form_radio">
+                                <input id="radio-323" type="radio" name="radio32" value="-1">
+                                <label for="radio-323"> </label>
+                            </div>
+                            
+                            <div class="form_radio">
+                                <input id="radio-324" type="radio" name="radio32" value="1">
+                                <label for="radio-324"> </label>
+                            </div>  
+                            <div class="form_radio">
+                                <input id="radio-325" type="radio" name="radio32" value="2">
+                                <label for="radio-325"> </label>
+                            </div>  
+                            <div class="form_radio">
+                                <input id="radio-326" type="radio" name="radio32" value="3">
+                                <label for="radio-326"></label>
+                            </div>
+                        </div>  
+                        <div class="numbs1">
+                            <div class="val">
+                                <div class="numbm">-3</div>
+                                <div class="numbm">-2</div>
+                                <div class="numbm">-1</div>
+                            </div>
+                            <div class="val">
+                                <div class="numbp">1</div>
+                                <div class="numbp">2</div>
+                                <div class="numbp">3</div>
+                            </div>
+                        </div>
+                        <div class="numbs2">
+                            <div class="val">
+                                <div class="numbm">-3</div>
+                                <div class="numbm">-2</div>
+                                <div class="numbm">-1</div>
+                            </div>
+                            <div class="val">
+                                <div class="numbp">1</div>
+                                <div class="numbp">2</div>
+                                <div class="numbp">3</div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="table17">
+                    <div class="textleft1">Красить или расписывать стены или
+                        помещения, поверхность изделий</div>
+                    <div class="textright1">Осуществлять монтаж зданий или сборку машин, приборов</div>
+                    <div class="numbtwo">17</div>
+                    <div class="sitemid1"></div>
+                    <div class="choice">
+                        <div class="a17">
+                            <div class="form_radio">
+                                <input id="radio-331" type="radio" name="radio33" value="-3">
+                                <label for="radio-331"> </label>
+                            </div>
+                            
+                            <div class="form_radio">
+                                <input id="radio-332" type="radio" name="radio33" value="-2">
+                                <label for="radio-332"> </label>
+                            </div>
+                            
+                            <div class="form_radio">
+                                <input id="radio-333" type="radio" name="radio33" value="-1">
+                                <label for="radio-333"> </label>
+                            </div>
+                            
+                            <div class="form_radio">
+                                <input id="radio-334" type="radio" name="radio33" value="1">
+                                <label for="radio-334"> </label>
+                            </div>  
+                            <div class="form_radio">
+                                <input id="radio-335" type="radio" name="radio33" value="2">
+                                <label for="radio-335"> </label>
+                            </div>  
+                            <div class="form_radio">
+                                <input id="radio-336" type="radio" name="radio33" value="3">
+                                <label for="radio-336"></label>
+                            </div>
+                        </div>
+                        <div class="b17">
+                            <div class="form_radio">
+                                <input id="radio-341" type="radio" name="radio34" value="-3">
+                                <label for="radio-341"> </label>
+                            </div>
+                            
+                            <div class="form_radio">
+                                <input id="radio-342" type="radio" name="radio34" value="-2">
+                                <label for="radio-342"> </label>
+                            </div>
+                            
+                            <div class="form_radio">
+                                <input id="radio-343" type="radio" name="radio34" value="-1">
+                                <label for="radio-343"> </label>
+                            </div>
+                            
+                            <div class="form_radio">
+                                <input id="radio-344" type="radio" name="radio34" value="1">
+                                <label for="radio-344"> </label>
+                            </div>  
+                            <div class="form_radio">
+                                <input id="radio-345" type="radio" name="radio34" value="2">
+                                <label for="radio-345"> </label>
+                            </div>  
+                            <div class="form_radio">
+                                <input id="radio-346" type="radio" name="radio34" value="3">
+                                <label for="radio-346"></label>
+                            </div>
+                        </div>  
+                        <div class="numbs1">
+                            <div class="val">
+                                <div class="numbm">-3</div>
+                                <div class="numbm">-2</div>
+                                <div class="numbm">-1</div>
+                            </div>
+                            <div class="val">
+                                <div class="numbp">1</div>
+                                <div class="numbp">2</div>
+                                <div class="numbp">3</div>
+                            </div>
+                        </div>
+                        <div class="numbs2">
+                            <div class="val">
+                                <div class="numbm">-3</div>
+                                <div class="numbm">-2</div>
+                                <div class="numbm">-1</div>
+                            </div>
+                            <div class="val">
+                                <div class="numbp">1</div>
+                                <div class="numbp">2</div>
+                                <div class="numbp">3</div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="table18">
+                    <div class="textleft1">Организовывать культпоходы сверстников
+                        или младших товарищей (в театры, музеи),
+                        экскурсии, туристические походы и т. п.</div>
+                    <div class="textright1">Играть на сцене, принимать участие в концертах</div>
+                    <div class="numbtwo">18</div>
+                    <div class="sitemid1"></div>
+                    <div class="choice">
+                        <div class="a18">
+                            <div class="form_radio">
+                                <input id="radio-351" type="radio" name="radio35" value="-3">
+                                <label for="radio-351"> </label>
+                            </div>
+                            
+                            <div class="form_radio">
+                                <input id="radio-352" type="radio" name="radio35" value="-2">
+                                <label for="radio-352"> </label>
+                            </div>
+                            
+                            <div class="form_radio">
+                                <input id="radio-353" type="radio" name="radio35" value="-1">
+                                <label for="radio-353"> </label>
+                            </div>
+                            
+                            <div class="form_radio">
+                                <input id="radio-354" type="radio" name="radio35" value="1">
+                                <label for="radio-354"> </label>
+                            </div>  
+                            <div class="form_radio">
+                                <input id="radio-355" type="radio" name="radio35" value="2">
+                                <label for="radio-355"> </label>
+                            </div>  
+                            <div class="form_radio">
+                                <input id="radio-356" type="radio" name="radio35" value="3">
+                                <label for="radio-356"></label>
+                            </div>
+                        </div>
+                        <div class="b18">
+                            <div class="form_radio">
+                                <input id="radio-361" type="radio" name="radio36" value="-3">
+                                <label for="radio-361"> </label>
+                            </div>
+                            
+                            <div class="form_radio">
+                                <input id="radio-362" type="radio" name="radio36" value="-2">
+                                <label for="radio-362"> </label>
+                            </div>
+                            
+                            <div class="form_radio">
+                                <input id="radio-363" type="radio" name="radio36" value="-1">
+                                <label for="radio-363"> </label>
+                            </div>
+                            
+                            <div class="form_radio">
+                                <input id="radio-364" type="radio" name="radio36" value="1">
+                                <label for="radio-364"> </label>
+                            </div>  
+                            <div class="form_radio">
+                                <input id="radio-365" type="radio" name="radio36" value="2">
+                                <label for="radio-365"> </label>
+                            </div>  
+                            <div class="form_radio">
+                                <input id="radio-366" type="radio" name="radio36" value="3">
+                                <label for="radio-366"></label>
+                            </div>
+                        </div>  
+                        <div class="numbs1">
+                            <div class="val">
+                                <div class="numbm">-3</div>
+                                <div class="numbm">-2</div>
+                                <div class="numbm">-1</div>
+                            </div>
+                            <div class="val">
+                                <div class="numbp">1</div>
+                                <div class="numbp">2</div>
+                                <div class="numbp">3</div>
+                            </div>
+                        </div>
+                        <div class="numbs2">
+                            <div class="val">
+                                <div class="numbm">-3</div>
+                                <div class="numbm">-2</div>
+                                <div class="numbm">-1</div>
+                            </div>
+                            <div class="val">
+                                <div class="numbp">1</div>
+                                <div class="numbp">2</div>
+                                <div class="numbp">3</div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="table19">
+                    <div class="textleft1">Изготавливать по чертежам детали, изделия
+                        (машины, одежду), строить здания</div>
+                    <div class="textright1">Заниматься черчением, копировать чертежи, карты</div>
+                    <div class="numbtwo">19</div>
+                    <div class="sitemid1"></div>
+                    <div class="choice">
+                        <div class="a19">
+                            <div class="form_radio">
+                                <input id="radio-371" type="radio" name="radio37" value="-3">
+                                <label for="radio-371"> </label>
+                            </div>
+                            
+                            <div class="form_radio">
+                                <input id="radio-372" type="radio" name="radio37" value="-2">
+                                <label for="radio-372"> </label>
+                            </div>
+                            
+                            <div class="form_radio">
+                                <input id="radio-373" type="radio" name="radio37" value="-1">
+                                <label for="radio-373"> </label>
+                            </div>
+                            
+                            <div class="form_radio">
+                                <input id="radio-374" type="radio" name="radio37" value="1">
+                                <label for="radio-374"> </label>
+                            </div>  
+                            <div class="form_radio">
+                                <input id="radio-375" type="radio" name="radio37" value="2">
+                                <label for="radio-375"> </label>
+                            </div>  
+                            <div class="form_radio">
+                                <input id="radio-376" type="radio" name="radio37" value="3">
+                                <label for="radio-376"></label>
+                            </div>
+                        </div>
+                        <div class="b19">
+                            <div class="form_radio">
+                                <input id="radio-381" type="radio" name="radio38" value="-3">
+                                <label for="radio-381"> </label>
+                            </div>
+                            
+                            <div class="form_radio">
+                                <input id="radio-382" type="radio" name="radio38" value="-2">
+                                <label for="radio-382"> </label>
+                            </div>
+                            
+                            <div class="form_radio">
+                                <input id="radio-383" type="radio" name="radio38" value="-1">
+                                <label for="radio-383"> </label>
+                            </div>
+                            
+                            <div class="form_radio">
+                                <input id="radio-384" type="radio" name="radio38" value="1">
+                                <label for="radio-384"> </label>
+                            </div>  
+                            <div class="form_radio">
+                                <input id="radio-385" type="radio" name="radio38" value="2">
+                                <label for="radio-385"> </label>
+                            </div>  
+                            <div class="form_radio">
+                                <input id="radio-386" type="radio" name="radio38" value="3">
+                                <label for="radio-386"></label>
+                            </div>
+                        </div>  
+                        <div class="numbs1">
+                            <div class="val">
+                                <div class="numbm">-3</div>
+                                <div class="numbm">-2</div>
+                                <div class="numbm">-1</div>
+                            </div>
+                            <div class="val">
+                                <div class="numbp">1</div>
+                                <div class="numbp">2</div>
+                                <div class="numbp">3</div>
+                            </div>
+                        </div>
+                        <div class="numbs2">
+                            <div class="val">
+                                <div class="numbm">-3</div>
+                                <div class="numbm">-2</div>
+                                <div class="numbm">-1</div>
+                            </div>
+                            <div class="val">
+                                <div class="numbp">1</div>
+                                <div class="numbp">2</div>
+                                <div class="numbp">3</div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="table20">
+                    <div class="textleft1">Вести борьбу с болезнями растений, с
+                        вредителями леса, сада</div>
+                    <div class="textright1">Работать на клавишных машинах (пишущей машинке, телетайпе и др.)</div>
+                    <div class="numbtwo">20</div>
+                    <div class="sitemid1"></div>
+                    <div class="choice">
+                        <div class="a20">
+                            <div class="form_radio">
+                                <input id="radio-391" type="radio" name="radio39" value="-3">
+                                <label for="radio-391"> </label>
+                            </div>
+                            
+                            <div class="form_radio">
+                                <input id="radio-392" type="radio" name="radio39" value="-2">
+                                <label for="radio-392"> </label>
+                            </div>
+                            
+                            <div class="form_radio">
+                                <input id="radio-393" type="radio" name="radio39" value="-1">
+                                <label for="radio-393"> </label>
+                            </div>
+                            
+                            <div class="form_radio">
+                                <input id="radio-394" type="radio" name="radio39" value="1">
+                                <label for="radio-394"> </label>
+                            </div>  
+                            <div class="form_radio">
+                                <input id="radio-395" type="radio" name="radio39" value="2">
+                                <label for="radio-395"> </label>
+                            </div>  
+                            <div class="form_radio">
+                                <input id="radio-396" type="radio" name="radio39" value="3">
+                                <label for="radio-396"></label>
+                            </div>
+                        </div>
+                        <div class="b20">
+                            <div class="form_radio">
+                                <input id="radio-401" type="radio" name="radio40" value="-3">
+                                <label for="radio-401"> </label>
+                            </div>
+                            
+                            <div class="form_radio">
+                                <input id="radio-402" type="radio" name="radio40" value="-2">
+                                <label for="radio-402"> </label>
+                            </div>
+                            
+                            <div class="form_radio">
+                                <input id="radio-403" type="radio" name="radio40" value="-1">
+                                <label for="radio-403"> </label>
+                            </div>
+                            
+                            <div class="form_radio">
+                                <input id="radio-404" type="radio" name="radio40" value="1">
+                                <label for="radio-404"> </label>
+                            </div>  
+                            <div class="form_radio">
+                                <input id="radio-405" type="radio" name="radio40" value="2">
+                                <label for="radio-405"> </label>
+                            </div>  
+                            <div class="form_radio">
+                                <input id="radio-406" type="radio" name="radio40" value="3">
+                                <label for="radio-406"></label>
+                            </div>
+                        </div>  
+                        <div class="numbs1">
+                            <div class="val">
+                                <div class="numbm">-3</div>
+                                <div class="numbm">-2</div>
+                                <div class="numbm">-1</div>
+                            </div>
+                            <div class="val">
+                                <div class="numbp">1</div>
+                                <div class="numbp">2</div>
+                                <div class="numbp">3</div>
+                            </div>
+                        </div>
+                        <div class="numbs2">
+                            <div class="val">
+                                <div class="numbm">-3</div>
+                                <div class="numbm">-2</div>
+                                <div class="numbm">-1</div>
+                            </div>
+                            <div class="val">
+                                <div class="numbp">1</div>
+                                <div class="numbp">2</div>
+                                <div class="numbp">3</div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class = "MainBut" onclick="start()">
+                    <a href="End.html">
+                        <div class="texttest">Окончить тест</div>
+                        <div class="ray"><img src="img/Helps/Vector 1.png" alt=""></div>
+                    </a>
+                </div>
+            </form>
+        </div>
+        <div class="floor">
+            <div class="contact">+7 (999) 000-00-00<br>name@email.com</div>
+            <div class="iconF"><img src="img/icon/Frame.png" alt=""></div>
+        </div>
+        <script src="" async defer></script>
+    </body>
+</html>

@@ -1,0 +1,138 @@
+html{
+    font-family: Intro Cond;
+    font-style: normal;
+    font-weight: 900;
+    font-size: 72px;
+    background-image:  url("img/bg/BackGround.png");
+    background-repeat: no-repeat;
+    background-position: center ;
+    background-size: cover;
+    height: 100vh;
+    color: #E1E1E1;
+    position: absolute;
+    width: 1440px;
+    height: 934px;
+    left: 0px;
+    top: 0px;
+}
+.head{
+    position: absolute;
+    width: 463px;
+    height: 385px;
+    display: flex;
+    left: 5px;
+    flex-direction: column;
+    align-items: flex-start;
+}
+.head_main{
+    position: absolute;
+    width: 463px;
+    height: 89px;
+    left: 150px;
+    top: 315px;
+    white-space: nowrap;
+    font-family: Big Intro;
+    font-style: normal;
+    font-weight: 900;
+    font-size: 72px;
+    line-height: 118.4%;
+    /* or 85px */
+    text-align: left;
+    letter-spacing: 0.02em;
+    text-decoration-line: underline;
+    text-transform: uppercase;
+    
+    color: #E1E1E1;
+    
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+.head_head{
+    position: absolute;
+    width: 367px;
+    height: 76px;
+    left: 150px;
+    top: 215px;
+
+    font-family: Smal Intro;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 45px;
+    line-height: 31px;
+    /* or 31px */
+    display: flex;
+    align-items: center;
+    text-align: center;
+    text-transform: lowercase;
+
+    color: rgba(225, 225, 225, 0.52);
+
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+.head_comment{
+    position: absolute;
+    width: 463px;
+    height: 32px;
+    left: 150px;
+    top: 409px;
+
+    font-family: Smal Intro;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 26px;
+    line-height: 31px;
+    /* or 31px */
+    text-align: justify;
+    text-transform: lowercase;
+
+    color: #E1E1E1;
+
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+.butt{
+    position: absolute;
+    width: 367px;
+    height: 85px;
+    left: 150px;
+    top: 515px;
+
+}
+img.batt:hover{
+    filter: alpha (Opacity=25);/* прозрачность для IE */
+    opacity: 0.85;/* прозрачность для других браузеров */
+}
+.corner{
+    position: relative;
+    width: 1440px;
+    height: 934px;
+    text-align: right;
+    z-index: -1;
+}
+.contact{
+    position: absolute;
+    width: 173px;
+    height: 85px;
+    left: 1117px;
+    top: 15px;
+
+    font-family: Imprima;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 118.4%;
+    /* or 21px */
+    display: flex;
+    align-items: center;
+    text-align: right;
+    letter-spacing: 0.02em;
+    text-transform: lowercase;
+
+    color: #FFFFFF;
+
+}
+.icon{
+    position: absolute;
+    left: 10.42%;
+    right: 80.83%;
+    top: 3.75%;
+    bottom: 87.04%;
+}

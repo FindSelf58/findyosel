@@ -1,0 +1,545 @@
+html,body{
+    margin: 0;
+    padding: 0;
+    position: relative;
+    width: 1440px;
+    height: 9200px;
+    background: #FFFFFF;
+}
+.val{
+    font-family: Imprima;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 119.4%;
+    /* or 21px */
+    letter-spacing: 0.02em;
+    color: #000000;
+    display: inline-block;
+    padding-right: 4.5px;
+}
+.numbs1{
+    position: absolute;
+    width: 602px;
+    height: 20px;
+    left: 100px;
+    top: 184px;
+}
+.numbs2{
+    position: absolute;
+    width: 602px;
+    height: 20px;
+    left: 655px;
+    top: 184px;
+}
+.a1,.a2,.a3,.a4,.a5,.a6,.a7,.a8,.a9,.a10,.a11,.a12,.a12,.a13,.a14,.a15,.a16,.a17,.a18,.a19,.a20{
+    position: absolute;
+    width: 500px;
+    height: 52px;
+    left: 86px;
+    top: 220px;
+}
+.b1,.b2,.b3,.b4,.b5,.b6,.b7,.b8,.b9,.b10,.b11,.b12,.b12,.b13,.b14,.b15,.b16,.b17,.b18,.b19,.b20{
+    position: absolute;
+    width: 500px;
+    height: 52px;
+    left: 642px;
+    top: 220px;
+}
+.form_radio {
+    display: inline-block;
+    margin-bottom: 10px;
+    margin-top: 10px;
+    margin-left: 10px;
+    margin-right: 20px;
+}
+.form_radio input[type=radio] {
+	display: none;
+}
+.form_radio label {
+	display: inline-block;
+	cursor: pointer;
+    position: relative;
+    margin-top: 10px;
+	padding-left: 40px;
+	margin-right: 0;
+	line-height: 25px;
+	user-select: none;
+}
+.form_radio label:before {
+	content: "";
+	display: inline-block;
+	width: 30px;
+	height: 30px;
+	position: absolute;
+	left: 0;
+	bottom: 1px;
+	background: url(img/Helps/Rectangle\ 14.png) 0 0 no-repeat;
+}
+ 
+/* Checked */
+.form_radio input[type=radio]:checked + label:before {
+	background: url(img/Helps/Group\ 25.png) 0 0 no-repeat;
+}
+ 
+/* Hover */
+.form_radio label:hover:before {
+	filter: brightness(120%);
+}
+.title{
+    position: absolute;
+    height: 84px;
+    left: 34%;
+    right: 10.42%;
+    top: 0px;
+    
+    font-family: Imprima;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 42px;
+    line-height: 118.4%;
+    /* or 50px */
+    display: flex;
+    align-items: center;
+    text-align: center;
+    letter-spacing: 0.02em;
+    text-transform: capitalize;
+    
+    color: #FFFFFF; 
+}
+.titlefon{
+    position: absolute;
+    width: 1000px;
+    height: 84px;
+    left: 0px;
+    top: 0px;
+}
+.instruct{
+    position: absolute;
+    width: 500px;
+    height: 88px;
+    left: 570px;
+    top: 210px;
+
+    font-family: Imprima;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 48px;
+    line-height: 154.4%;
+    /* or 74px */
+    display: flex;
+    align-items: center;
+    text-align: center;
+    letter-spacing: 0.02em;
+
+    color: #000000;
+}
+.sidedown{
+    position: absolute;
+    width: 1006px;
+    height: 5px;
+    left: 217px;
+    top: 1059px;
+
+    background: #E2E2E2;
+    border-radius: 36px;
+}
+.textleft1{
+    position: absolute;
+    width: 446px;
+    height: 102px;
+    left: 86px;
+    top: 32px;
+    padding-bottom: 386px;
+
+    font-family: Imprima;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 24px;
+    line-height: 119.4%;
+    /* or 29px */
+    letter-spacing: 0.02em;
+
+    color: #000000;
+}
+.textright1{
+    position: absolute;
+    width: 446px;
+    height: 102px;
+    left: 642px;
+    top: 32px;
+
+    font-family: Imprima;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 24px;
+    line-height: 119.4%;
+    letter-spacing: 0.02em;
+    color: #000000;
+}
+.numbone{
+    position: absolute;
+    width: 26px;
+    height: 57px;
+    left: 562px;
+    top: 0px;
+
+    font-family: Imprima;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 48px;
+    line-height: 119.4%;
+    /* or 57px */
+    letter-spacing: 0.02em;
+    color: #BFBFBF;
+}
+.numbtwo{
+    position: absolute;
+    width: 26px;
+    height: 57px;
+    left: 550px;
+    top: 0px;
+
+    font-family: Imprima;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 48px;
+    line-height: 119.4%;
+    /* or 57px */
+    letter-spacing: 0.02em;
+    color: #BFBFBF;
+}
+.sitemid1{
+    position: absolute;
+    width: 5px;
+    height: 157px;
+    left: 573px;
+    top: 81px;
+
+    background: #E6E6E6;
+    border-radius: 47px;
+    transform: matrix(-1, 0, 0, 1, 0, 0);
+}
+.sidetop{
+    position: absolute;
+    width: 532px;
+    height: 5px;
+    left: 454px;
+    top: 306px;
+
+    background: #E2E2E2;
+    border-radius: 36px;
+}
+.text1{
+    position: absolute;
+    width: 426px;
+    height: 349px;
+    left: 150px;
+    top: 374px;
+
+    font-family: Imprima;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 26px;
+    line-height: 154.4%;
+    /* or 40px */
+    letter-spacing: 0.02em;
+
+    color: #000000;
+}
+.text2{
+    position: absolute;
+    width: 1139px;
+    height: 120px;
+    left: 150px;
+    top: 815px;
+    font-family: Imprima;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 26px;
+    line-height: 153.9%;
+    /* or 40px */
+    display: flex;
+    align-items: center;
+    letter-spacing: 0.02em;
+    color: #000000;
+}
+.BoldMan{
+    position: absolute;
+    width: 653px;
+    height: 378px;
+    left: 637px;
+    top: 374px;
+    box-shadow: 0px 0px 17px rgba(0, 0, 0, 0.44);
+}
+.numbm{
+    display: inline-block;
+    padding-right: 50px;
+}
+.numbp{
+    display: inline-block;
+    padding-right: 60px;
+}
+.MainBut{
+    position: absolute;
+    width: 463px;
+    height: 85px;
+    left: 827px;
+    bottom: 270px;
+    cursor: pointer;
+    background: #F8D4A8;
+    border: 1px solid black;
+}
+.texttest{
+    position: absolute;
+    left: 12%;
+    right: 17.48%;
+    top: 24.71%;
+    bottom: 17.65%;
+
+    font-family: Smal Intro;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 36px;
+    line-height: 118.4%;
+    /* or 43px */
+    display: flex;
+    align-items: center;
+    text-align: center;
+    letter-spacing: 0.02em;
+    text-transform: uppercase;
+
+    color: #000000;
+}
+.ray{
+    position: absolute;
+    left: 90.5%;
+    right: 4.59%;
+    top: 25.88%;
+    bottom: 25.51%;
+}
+.MainBut:hover{
+    filter: alpha (Opacity=50);/* прозрачность для IE */
+    opacity: 0.85;/* прозрачность для других браузеров */
+}
+.table1{
+    position: absolute;
+    width: 1140px;
+    height: 268px;
+    left: 150px;
+    top: 1119px;
+
+    background: #FFFFFF;
+    box-shadow: 0px 4px 27px rgba(0, 0, 0, 0.26);
+}
+.table2{
+    position: absolute;
+    width: 1140px;
+    height: 268px;
+    left: 150px;
+    top: 1505px;
+
+    background: #FFFFFF;
+    box-shadow: 0px 4px 27px rgba(0, 0, 0, 0.26);
+}
+.table3{
+    position: absolute;
+    width: 1140px;
+    height: 268px;
+    left: 150px;
+    top: 1891px;
+
+    background: #FFFFFF;
+    box-shadow: 0px 4px 27px rgba(0, 0, 0, 0.26);
+}
+.table4{
+    position: absolute;
+    width: 1140px;
+    height: 268px;
+    left: 150px;
+    top: 2277px;
+    
+    background: #FFFFFF;
+    box-shadow: 0px 4px 27px rgba(0, 0, 0, 0.26);
+ }
+.table5{
+    position: absolute;
+    width: 1140px;
+    height: 268px;
+    left: 150px;
+    top: 2663px;
+
+    background: #FFFFFF;
+    box-shadow: 0px 4px 27px rgba(0, 0, 0, 0.26);
+}
+.table6{
+    position: absolute;
+    width: 1140px;
+    height: 268px;
+    left: 150px;
+    top: 3049px;
+    
+    background: #FFFFFF;
+    box-shadow: 0px 4px 27px rgba(0, 0, 0, 0.26);
+}
+.table7{
+    position: absolute;
+    width: 1140px;
+    height: 268px;
+    left: 150px;
+    top: 3435px;
+    
+    background: #FFFFFF;
+    box-shadow: 0px 4px 27px rgba(0, 0, 0, 0.26);
+    }
+.table8{
+    position: absolute;
+    width: 1140px;
+    height: 268px;
+    left: 150px;
+    top: 3821px;
+    background: #FFFFFF;
+    box-shadow: 0px 4px 27px rgba(0, 0, 0, 0.26);
+}
+.table9{
+    position: absolute;
+    width: 1140px;
+    height: 268px;
+    left: 150px;
+    top: 4207px;
+    background: #FFFFFF;
+    box-shadow: 0px 4px 27px rgba(0, 0, 0, 0.26);
+}
+.table10{
+    position: absolute;
+    width: 1140px;
+    height: 268px;
+    left: 150px;
+    top: 4593px;
+    background: #FFFFFF;
+    box-shadow: 0px 4px 27px rgba(0, 0, 0, 0.26);
+}
+.table11{
+    position: absolute;
+    width: 1140px;
+    height: 268px;
+    left: 150px;
+    top: 4979px;
+    background: #FFFFFF;
+    box-shadow: 0px 4px 27px rgba(0, 0, 0, 0.26);
+}
+.table12{
+    position: absolute;
+    width: 1140px;
+    height: 268px;
+    left: 150px;
+    top: 5365px;
+    background: #FFFFFF;
+    box-shadow: 0px 4px 27px rgba(0, 0, 0, 0.26);
+}
+.table13{
+    position: absolute;
+    width: 1140px;
+    height: 268px;
+    left: 150px;
+    top: 5751px;
+    background: #FFFFFF;
+    box-shadow: 0px 4px 27px rgba(0, 0, 0, 0.26);
+}
+.table14{
+    position: absolute;
+    width: 1140px;
+    height: 268px;
+    left: 150px;
+    top: 6137px;
+    background: #FFFFFF;
+    box-shadow: 0px 4px 27px rgba(0, 0, 0, 0.26);
+}
+.table15{
+    position: absolute;
+    width: 1140px;
+    height: 268px;
+    left: 150px;
+    top: 6523px;
+    background: #FFFFFF;
+    box-shadow: 0px 4px 27px rgba(0, 0, 0, 0.26);
+}
+.table16{
+    position: absolute;
+    width: 1140px;
+    height: 268px;
+    left: 150px;
+    top: 6909px;
+    background: #FFFFFF;
+    box-shadow: 0px 4px 27px rgba(0, 0, 0, 0.26);
+}
+.table17{
+    position: absolute;
+    width: 1140px;
+    height: 268px;
+    left: 150px;
+    top: 7295px;
+    background: #FFFFFF;
+    box-shadow: 0px 4px 27px rgba(0, 0, 0, 0.26);
+}
+.table18{
+    position: absolute;
+    width: 1140px;
+    height: 268px;
+    left: 150px;
+    top: 7681px;
+    background: #FFFFFF;
+    box-shadow: 0px 4px 27px rgba(0, 0, 0, 0.26);
+}
+.table19{
+    position: absolute;
+    width: 1140px;
+    height: 268px;
+    left: 150px;
+    top: 8067px;
+    background: #FFFFFF;
+    box-shadow: 0px 4px 27px rgba(0, 0, 0, 0.26);
+}
+.table20{
+    position: absolute;
+    width: 1140px;
+    height: 268px;
+    left: 150px;
+    top: 8453px;
+    background: #FFFFFF;
+    box-shadow: 0px 4px 27px rgba(0, 0, 0, 0.26);
+}
+.iconF{
+    position: absolute;
+    width: 83px;
+    height: 57px;
+    left: 150px;   
+    margin-top:35px;
+}
+.floor{
+    position: absolute;
+    width: 1440px;
+    height: 125px;
+    left: 0px;
+    bottom: 0px;
+    background: #504A45;
+}
+.contact{
+    position: absolute;
+    width: 173px;
+    height: 85px;
+    left: 1117px;
+    bottom: 20px;
+    font-family: Imprima;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 118.4%;
+    /* or 21px */
+    display: flex;
+    align-items: center;
+    text-align: right;
+    letter-spacing: 0.02em;
+    text-transform: lowercase;
+    color: #FFFFFF;
+}
